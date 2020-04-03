@@ -55,6 +55,7 @@ function operacoesBasicas(operacao, numero1, numero2) {
  */
 function comparadorBasico(elemento1, elemento2) { 
 
+    
     if(elemento1 === elemento2 ){
         return ('Elemento ' + elemento1 + ' (' + typeof(elemento1) + ') '+ 'é estritamente igual ao elemento ' + elemento2 + ' (' + typeof(elemento2) + ')');
     }else if(elemento1 == elemento2){
